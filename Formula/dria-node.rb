@@ -1,30 +1,30 @@
 class DriaNode < Formula
   desc "Dria Compute Node - run AI inference on the Dria network"
   homepage "https://github.com/firstbatchxyz/dkn-compute-node"
-  version "1.0.0-alpha.1"
+  version "1.0.0-alpha.2"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/firstbatchxyz/dkn-compute-node/releases/download/v1.0.0-alpha.1/dria-node-macOS-amd64"
-      sha256 "064f437ac6160969811e978cffda48a206c83b4500214eb407d63f514c63f5fe"
+      url "https://github.com/firstbatchxyz/dkn-compute-node/releases/download/v1.0.0-alpha.2/dria-node-macOS-amd64"
+      sha256 "e772893333e5cb9a283f3660e866c0369562117e8db1eaa1f50fc1adf780da8c"
     end
 
     on_arm do
-      url "https://github.com/firstbatchxyz/dkn-compute-node/releases/download/v1.0.0-alpha.1/dria-node-macOS-arm64"
-      sha256 "51b908170f614db9d56065f87fae52534cb5b491e8255cd4a5bf6144e2adcf50"
+      url "https://github.com/firstbatchxyz/dkn-compute-node/releases/download/v1.0.0-alpha.2/dria-node-macOS-arm64"
+      sha256 "4ddabbab0c701af2c0a738696867e43693a9a90b3e7b0a86b0ee6df19c8ec623"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/firstbatchxyz/dkn-compute-node/releases/download/v1.0.0-alpha.1/dria-node-linux-amd64"
-      sha256 "ed3f9bef8755da0c77a2a8ba0b6784d78744c1dd938201e0a7b6b492d161a984"
+      url "https://github.com/firstbatchxyz/dkn-compute-node/releases/download/v1.0.0-alpha.2/dria-node-linux-amd64"
+      sha256 "b533fde8aeb08c6fd778264c1fb4f71adbf39b283fa41d4a30bcfee9a06f2743"
     end
 
     on_arm do
-      url "https://github.com/firstbatchxyz/dkn-compute-node/releases/download/v1.0.0-alpha.1/dria-node-linux-arm64"
-      sha256 "0b5807bc4a132fa5dcb6e308e17b8187a899cba872a4bdfa6b4fc5f750158dac"
+      url "https://github.com/firstbatchxyz/dkn-compute-node/releases/download/v1.0.0-alpha.2/dria-node-linux-arm64"
+      sha256 "eff5661d4158a017a4ccbab60b340d5cf2c029661269f958e66e3f0a92c7be5d"
     end
   end
 
